@@ -1,0 +1,86 @@
+body{
+background: aliceblue;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contain{
+    padding:15px;
+    margin-left:3%;
+}
+
+.formm{
+    display: grid;
+    background-color:white;
+    padding: 2% 1% 2% 2%;
+    width: 21.95%;
+    position: absolute;
+    margin-top: 16%;
+    left: 40%;
+    box-shadow: 5px 2px 2px 2px slategrey;
+    height:190px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+/*input[type="button"]{
+    width: 30%;
+    margin: 6% 0% 0% 32%;
+    background:linear-gradient(90deg, rgba(10,237,195,1) 48%, rgba(0,212,255,1) 100%);
+    border:none;
+    box-shadow: 2px 2px 2px 2px grey;
+    font-size:17px;
+    cursor: pointer;
+} */
+
+input[type="email"]{
+    padding: 7px;
+    border: 3px solid lightgrey;
+    margin-bottom: 5%;
+    border-radius: 4px;
+}
+input[type="password"]{
+    padding: 7px;
+    border: 3px solid lightgrey;
+    border-radius: 4px;
+}
+.heading{
+    background-color:skyblue;
+    width: 20.99%;
+    position: absolute;
+    margin-top: 11.98%;
+    margin-left: 35.48%;
+    padding: 2%;
+    box-shadow: 5px 2px 2px 2px slategrey;
+    font-size:20px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.login{
+        position: absolute;
+        margin-top: -4%;
+        font-size:25px;
+        margin-left:25%;
+}
+
+.fp{
+    margin-top:2%;
+}
+button.btn{
+    background-color: skyblue;
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 7px; 
+    font-size: 17px;
+    margin-top: 3%;
+    padding: 3% 11% 3% 11%;
+    margin-left: 32%;
+   /* box-shadow: 2px 2px 2px 2px skyblue; */
+}
+a button:hover{
+    background-color:white;
+    color:black;
+    border:2px solid skyblue;
+
+}
